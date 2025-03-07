@@ -1,7 +1,6 @@
 function abrirSite() {
     document.getElementById('inicio').style.display = 'none';
     document.getElementById('conteudo').style.display = 'block';
-    document.getElementById('musica').play();
     calcularTempoJuntos();
 }
 
