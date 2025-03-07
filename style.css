@@ -16,17 +16,30 @@ body {
     width: 100vh;
 }
 
+@keyframes pulsar {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
 #botao-coracao {
     font-size: 50px;
     padding: 20px;
     border: none;
     background-color: transparent;
     cursor: pointer;
+    animation: pulsar 1s infinite ease-in-out; /* Aplica a animação continuamente */
 }
 
 #conteudo {
     display: none;
-    margin-top: 10vh;
+    margin-top: 30vh;
 
 }
 
